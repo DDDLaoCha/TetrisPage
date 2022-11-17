@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>小组主页展示</title>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel='stylesheet' href = 'stylesheets/mycss.css' />
+  </head>
+  <body>
+  <!--Navigation -->
+  <header>
+     <nav class="navbar navbar-default navigation navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+           </button>
+      </div>
+      <div class="collapse navbar-collapse" id="1">
+          <ul class="nav navbar-nav">
+              <li class="active"><p id="menuTextLeft" class="option1 navbar-text navbar-left">关于团队</p></li>
+              <li><p id="menuTextLeft" class="option2 navbar-text navbar-left">作品展示</p></li>
+              <li><p id="menuTextLeft" class="option3 navbar-text navbar-left">制作历程</p></li>
+              <li><p id="menuTextLeft" class="option5 navbar-text navbar-left">联系我们</p></li>
+
+          </ul>
+      </div>
+  </nav>
+  </header>
+    <!-- Header -->
+    <div class="intro-header">
+      <div class="container">
+        <div class="intro-message">
+          <img id='cys__photo' src= './imgs/tubiao.jpg'/>
+          <h1 class="animated bounceInDown">Tetris</h1>
+          <h3> Hello, world. </h3>
+        </div>
+        <div id="particles-js"></div>
+      </div>
+    </div>
+    
+    
+
+    <!-- /.content-section-a -->
+  <div id='self-intro'>
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="section-heading-a">关于团队</h1>
+                    <p class="section-heading-ab"><strong>队名</strong></p>
+                    <div class = "col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                      <a target="_blank" href="https://gitee.com/creink-hyf?utm_source=poper_profile"><img class ='icon' src= './imgs/hyf.jpg'/></a>
+                      <p class='intro_q'><strong>黄一凡</strong></p>
+                      <p class='intro_p'>游戏框架和rust设计</p>
+                    </div>
+                    <div class = "col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                      <a target="_blank" href="https://gitee.com/inoue-chengzhi"><img class ='icon' src= './imgs/jcz.jpg'/></a>
+                      <p class='intro_q'><strong>井承志</strong></p>
+                      <p class='intro_p'>主题设计</p>
+                    </div>
+                    <div class = "col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                      <a target="_blank" href="https://gitee.com/DDDLaoCha"><img class ='icon' src= './imgs/lqz.jpg'/></a>
+                      <p class='intro_q'><strong>李秋卓</strong></p>
+                      <p class='intro_p'>网页和C++demo设计</p>
+                    </div>
+                    <div class = "col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                      <a target="_blank" href="https://gitee.com/cheng-dengwei"><img class ='icon' src= './imgs/cdw.jpg'/></a>
+                      <p class='intro_q'><strong>程登威</strong></p>
+                      <p class='intro_p'>后期调试</p>
+                    </div>
+                </div>
+          </div>
+          <div class="container-imgs cf"></div>
+          <div>
+            <a target='_blank' href="https://gitee.com/creink-hyf/se204">
+              <button id="button" class="btn btn-success btn-lg">See Our Repository</button></a>
+          </div>
+        </div>
+    </div>
+
+    <div class = 'skills intro-row'>
+      <div class ='container-fluid'>
+        <h3>技术栈   <span>RUST   |   C++   |   HTML</span></h3>
+      </div>
+    </div>
+    <div class = 'hobby intro-row'>
+      <div class ='container-fluid'>
+        <h3>关键词   <span>怀旧   |   单人   |   多人</span></h3>
+      </div>
+    </div>
+  </div>
+    <!-- /.content-section-b -->
+  <div id='showskill'>
+    <div id="vector-art" class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="section-heading-a">作品展示</h1>
+                    <p class="section-heading-ab">游戏主要功能介绍</p>
+                </div>
+            </div>
+          <div class="container-imgs cf">
+            <div class="boxes">
+              <a target='_blank'>
+                <img class="da-image" src="imgs/zhuye.jpg" alt="..." />
+                <div class='overlay'><p>进入游戏！</p></div>
+              </a>
+             </div>
+             <div class="boxes">
+                <a target='_blank'>
+                  <img  class="da-image" src="imgs/TBC2.jpg" alt="...">
+                  <div class='overlay'><p>选择你喜欢的主题</p></div>
+                </a>
+            </div>
+            <div class="boxes">
+              <a target='_blank'>
+                <img class="da-image" src="imgs/danren.jpg" alt="...">
+                <div class='overlay'><p>怀旧单人模式</p></div>
+              </a>
+            </div>
+            <div class="boxes">
+              <a target='_blank'>
+                <img class="da-image" src="imgs/duoren.jpg" alt="...">
+                <div class='overlay'><p>线下多人模式！</p></div>
+              </a>
+            </div>
+
+        </div>
+        <!-- /.container -->
+      <a target='_blank'>
+        <button id="button" class="btn btn-success btn-lg">DownLoad Now</button>
+      </a>
+    </div>
+    </div>
+  </div>
+    <!-- /.content-section-c -->
+
+ <div id="pure-css" class="content-section-c">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <h1 class="section-heading">制作历程</h1>
+
+
+                    <p class="lead">关于团队合作完成任务的点滴</p>
+
+
+                </div>
+            </div>
+      <div class="container-imgs cf">
+            <div class="boxes boxes-sm">
+              <a target='_blank'>
+                <img class="sm-image" src="imgs/shejizhichu.jpg" alt="..." />
+                <div class='overlay overlay-sm'><p>设计之初</p></div>
+              </a>
+             </div>
+             <div class="boxes boxes-sm">
+                <a target='_blank'>
+                  <img  class="sm-image" src="imgs/modao.jpg" alt="...">
+                  <div class='overlay overlay-sm'><p>墨刀demo</p></div>
+                </a>
+            </div>
+            <div class="boxes boxes-sm">
+              <a target='_blank'>
+                <img class="sm-image" src="imgs/cdemo.jpg" alt="...">
+                <div class='overlay overlay-sm'><p>C++实现demo</p></div>
+              </a>
+            </div>
+            <div class="boxes boxes-sm">
+              <a target='_blank'>
+                <img class="sm-image" src="imgs/zhuye.jpg" alt="...">
+                <div class='overlay overlay-sm'><p>完成</p></div>
+              </a>
+            </div>
+
+        </div>
+      <a target='_blank' href="https://gitee.com/creink-hyf/se204">
+        <button id="button" class="btn btn-success btn-lg">See Our Repository</button>
+      </a>
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+  <!-- /.content-section-d -->
+
+
+  <div id='contactMe'>
+   <!-- /.content-section-d -->
+    <div class="content-section-e">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+
+                  <h1 class="section-heading">联系方式</h1>
+                  <p class="lead"> 
+                    <i class='fa fa-envelope-open'></i><strong>黄一凡</strong> 1151665922@qq.com
+                  </p>
+                  <p class="lead"> <i class='fa fa-envelope-open'></i><strong>井承志</strong> 2530471878@qq.com</p>
+                  <p class="lead"> <i class='fa fa-envelope-open'></i><strong>李秋卓</strong> 2973172718@qq.com</p>
+                  <p class="lead"> <i class='fa fa-envelope-open'></i><strong>程登威</strong>  836819058@qq.com</p>
+
+
+                </div>
+            </div>
+
+
+          <a id="hire" href="mailto:2973172718@qq.com">
+            <button id="button" class="animated infinite pulse btn btn-success btn-lg">Contact Us</button>
+          </a>
+
+        </div>
+    </div>
+        <!-- /.container -->
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!--     <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+ -->    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="text/javascript" src='particle.js'></script>
+    <script type="text/javascript" src='hover.js'></script>
+    <script type='text/javascript' src='scroll.js'></script>
+  </body>
+</html>
